@@ -359,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A9158681B12217400A8FA96 /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
