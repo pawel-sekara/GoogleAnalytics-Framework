@@ -26,6 +26,7 @@
 		3A91589B1B12303400A8FA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A91589A1B12303400A8FA96 /* UIKit.framework */; };
 		3A91589E1B12304B00A8FA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A91589D1B12304B00A8FA96 /* Foundation.framework */; };
 		3A97DBEE1B12484600276051 /* GoogleAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A97DBED1B12484600276051 /* GoogleAnalytics.m */; };
+		D340A9A61C6A113700F74EED /* libGoogleAnalyticsServices.a in Resources */ = {isa = PBXBuildFile; fileRef = 3A9158741B12223D00A8FA96 /* libGoogleAnalyticsServices.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -316,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D340A9A61C6A113700F74EED /* libGoogleAnalyticsServices.a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
