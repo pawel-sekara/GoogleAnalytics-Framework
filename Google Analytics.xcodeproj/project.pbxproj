@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3A9158411B1220A100A8FA96 /* GoogleAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9158401B1220A100A8FA96 /* GoogleAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A9158751B12223D00A8FA96 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9158741B12223D00A8FA96 /* libGoogleAnalyticsServices.a */; };
 		3A9158801B12224800A8FA96 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9158761B12224800A8FA96 /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A9158811B12224800A8FA96 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9158771B12224800A8FA96 /* GAIDictionaryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A9158821B12224800A8FA96 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9158781B12224800A8FA96 /* GAIEcommerceFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,11 +21,11 @@
 		3A9158931B12301400A8FA96 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9158921B12301400A8FA96 /* CoreData.framework */; };
 		3A9158951B12301C00A8FA96 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9158941B12301C00A8FA96 /* SystemConfiguration.framework */; };
 		3A9158971B12302100A8FA96 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9158961B12302100A8FA96 /* libsqlite3.dylib */; };
-		3A9158991B12302A00A8FA96 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9158981B12302A00A8FA96 /* libz.1.dylib */; };
 		3A91589B1B12303400A8FA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A91589A1B12303400A8FA96 /* UIKit.framework */; };
 		3A91589E1B12304B00A8FA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A91589D1B12304B00A8FA96 /* Foundation.framework */; };
 		3A97DBEE1B12484600276051 /* GoogleAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A97DBED1B12484600276051 /* GoogleAnalytics.m */; };
-		D340A9A61C6A113700F74EED /* libGoogleAnalyticsServices.a in Resources */ = {isa = PBXBuildFile; fileRef = 3A9158741B12223D00A8FA96 /* libGoogleAnalyticsServices.a */; };
+		D340A9AA1C6A15AD00F74EED /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D340A9A91C6A15AD00F74EED /* libGoogleAnalytics.a */; };
+		D340A9AC1C6A163000F74EED /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D340A9AB1C6A163000F74EED /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		3A91586D1B12217400A8FA96 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
 		3A91586E1B12217400A8FA96 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
 		3A91586F1B12217400A8FA96 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		3A9158741B12223D00A8FA96 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		3A9158761B12224800A8FA96 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
 		3A9158771B12224800A8FA96 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
 		3A9158781B12224800A8FA96 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
@@ -68,6 +66,8 @@
 		3A91589D1B12304B00A8FA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A97DBEC1B1246A000276051 /* GoogleAnalytics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleAnalytics-Info.plist"; sourceTree = "<group>"; };
 		3A97DBED1B12484600276051 /* GoogleAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalytics.m; sourceTree = "<group>"; };
+		D340A9A91C6A15AD00F74EED /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		D340A9AB1C6A163000F74EED /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +75,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D340A9AC1C6A163000F74EED /* libz.tbd in Frameworks */,
 				3A91589E1B12304B00A8FA96 /* Foundation.framework in Frameworks */,
 				3A91589B1B12303400A8FA96 /* UIKit.framework in Frameworks */,
-				3A9158991B12302A00A8FA96 /* libz.1.dylib in Frameworks */,
 				3A9158971B12302100A8FA96 /* libsqlite3.dylib in Frameworks */,
+				D340A9AA1C6A15AD00F74EED /* libGoogleAnalytics.a in Frameworks */,
 				3A9158951B12301C00A8FA96 /* SystemConfiguration.framework in Frameworks */,
 				3A9158931B12301400A8FA96 /* CoreData.framework in Frameworks */,
-				3A9158751B12223D00A8FA96 /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +220,7 @@
 		3A9158731B12221900A8FA96 /* External Binaries */ = {
 			isa = PBXGroup;
 			children = (
-				3A9158741B12223D00A8FA96 /* libGoogleAnalyticsServices.a */,
+				D340A9A91C6A15AD00F74EED /* libGoogleAnalytics.a */,
 			);
 			name = "External Binaries";
 			path = External;
@@ -229,6 +229,7 @@
 		3A91589C1B12304000A8FA96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D340A9AB1C6A163000F74EED /* libz.tbd */,
 				3A91589D1B12304B00A8FA96 /* Foundation.framework */,
 				3A9158921B12301400A8FA96 /* CoreData.framework */,
 				3A9158961B12302100A8FA96 /* libsqlite3.dylib */,
@@ -317,7 +318,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D340A9A61C6A113700F74EED /* libGoogleAnalyticsServices.a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +366,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/Google Analytics/External\"",
+					"$(PROJECT_DIR)/Google",
+					Analytics/External,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -384,6 +386,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/Google Analytics/External\"",
+					"$(PROJECT_DIR)/Google",
+					Analytics/External,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
